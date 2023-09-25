@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "r4c"
+version = "0.1.0"
+description = ""
+authors = ["Nikita Kolesnik <118283668+KolesnikNV@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+django = "^4.2.5"
+djangorestframework = "^3.14.0"
+loguru = "^0.7.2"
+openpyxl = "^3.1.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
