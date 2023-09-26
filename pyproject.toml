@@ -2,7 +2,7 @@
 name = "r4c"
 version = "0.1.0"
 description = ""
-authors = ["Nikita Kolesnik <118283668+KolesnikNV@users.noreply.github.com>"]
+authors = ["Nikita Kolesnik i@nikitakolesnik.ru"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
@@ -11,8 +11,17 @@ django = "^4.2.5"
 djangorestframework = "^3.14.0"
 loguru = "^0.7.2"
 openpyxl = "^3.1.2"
+python-dotenv = "^1.0.0"
+celery = "^5.3.4"
+isort = "^5.12.0"
+redis = "^5.0.0"
+pytest = "^7.4.2"
+pytest-django = "^4.5.2"
 
 
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 79
